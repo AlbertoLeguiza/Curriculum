@@ -42,5 +42,27 @@ h2 {
 }
 
 .inferior {
-    padding: 100px;
+    padding: 50px;
 }
+
+.sobre-mi {
+    background-color: rgb(25, 134, 202);
+    padding: 10px;
+    height: 500px;
+}
+
+.texto {
+    color: #F7F7F5;
+}
+
+.contenedor {
+    max-width: 600px;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px){
+    .inferior {
+        padding: 0;
+    }
+}
+
