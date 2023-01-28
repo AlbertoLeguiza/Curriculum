@@ -1,0 +1,11 @@
+.navbar {
+    padding: 2rem;
+    background-color: lightskyblue;
+}
+
+@media screen and (max-width: 991px) {
+    .navbar-brand{
+        display: none;
+    }
+}
+
